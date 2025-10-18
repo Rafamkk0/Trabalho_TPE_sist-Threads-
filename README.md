@@ -15,7 +15,7 @@ O projeto é dividido em dois programas principais que operam em conjunto:
 
 **O objetivo é demonstrar:** Leitura robusta de arquivos, uso de threads (`CreateThread`), manipulação de seções críticas (`CRITICAL_SECTION`) e comunicação interprocessual (`CreateProcessA`, `WaitForSingleObject`).
 
-## ⚙️ Pré-requisitos
+##  Pré-requisitos
 
 Para compilar e executar este projeto, você precisa do ambiente de desenvolvimento GCC para Windows.
 
@@ -26,7 +26,7 @@ Recomendamos a instalação do TDM-GCC (versão 64-bit), que facilita a configur
   - **Link para Download:** `https://github.com/jmeubank/tdm-gcc/releases/download/v10.3.0-tdm64-2/tdm64-gcc-10.3.0-2.exe`
   - Certifique-se de adicionar o diretório `bin` do GCC ao seu `PATH` do sistema para que o comando `gcc` possa ser reconhecido no terminal.
 
-## 📦 Estrutura do Projeto
+##  Estrutura do Projeto
 
 Ao extrair o pacote de arquivos (`projetos.rar` ou similar), você deve ter a seguinte estrutura:
 
@@ -38,7 +38,7 @@ TPE/
 └── build_and_run.bat   # Script para automação da execução (se fornecido)
 ```
 
-## ▶️ Instruções de Execução
+##  Instruções de Execução
 
 O programa `P0.c` automatiza o processo de compilação e execução.
 
@@ -49,20 +49,6 @@ O programa `P0.c` automatiza o processo de compilação e execução.
     ```bash
     build_and_run
     ```
-
-### Opção B: Execução Manual
-
-Se preferir fazer a compilação e execução passo a passo:
-
-1.  **Compile o P0:**
-    ```bash
-    gcc P0.c -o P0.exe
-    ```
-2.  **Execute o P0:** O P0 cuidará da compilação e execução do P1.
-    ```bash
-    P0.exe
-    ```
-
 ##  Resultado
 
 Após a execução, o programa `P1.exe` criará ou atualizará o arquivo:
