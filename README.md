@@ -26,17 +26,6 @@ Recomendamos a instalação do TDM-GCC (versão 64-bit), que facilita a configur
   - **Link para Download:** `https://github.com/jmeubank/tdm-gcc/releases/download/v10.3.0-tdm64-2/tdm64-gcc-10.3.0-2.exe`
   - Certifique-se de adicionar o diretório `bin` do GCC ao seu `PATH` do sistema para que o comando `gcc` possa ser reconhecido no terminal.
 
-##  Estrutura do Projeto
-
-Ao extrair o pacote de arquivos (`projetos.rar` ou similar), você deve ter a seguinte estrutura:
-
-```
-TPE/
-├── P0.c                # Código fonte do gerenciador
-├── P1.c                # Código fonte do trabalhador multi-threaded
-├── lista_ids.txt       # Arquivo de entrada com os IDs (separados por linha, vírgula ou espaço)
-└── build_and_run.bat   # Script para automação da execução (se fornecido)
-```
 
 ##  Instruções de Execução
 
