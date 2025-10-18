@@ -31,9 +31,7 @@ Recomendamos a instalação do TDM-GCC (versão 64-bit), que facilita a configur
 
 O programa `P0.c` automatiza o processo de compilação e execução.
 
-### Opção A: Usando o Script (Recomendado)
-
-1.  Navegue até o diretório do projeto (`TPE/`).
+1.  Navegue até o diretório do projeto TPE_project.rar
 2.  Execute o arquivo:
     ```bash
     build_and_run
